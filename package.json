@@ -1,0 +1,58 @@
+{
+  "name": "one-piece",
+  "version": "1.0.0",
+  "description": "飞猪统一微前端解决方案(qiankun、iceStark)",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "authors": {
+    "name": "caozheng.caozheng",
+    "email": "caozheng.caozheng@alibaba-inc.com"
+  },
+  "scripts": {
+    "start": "cd examples/master && umi dev",
+    "dev": "father doc dev",
+    "build": "father build"
+  },
+  "peerDependencies": {
+    "react": "16",
+    "qiankun": "^1.3.6",
+    "@ice/stark": "^1.5.3",
+    "@ice/stark-app": "^1.2.0",
+    "react-dom": "16",
+    "ice.js": "^1.0.0",
+    "ice": "^3.7.3"
+  },
+  "devDependencies": {
+    "father": "^2.16.0",
+    "@umijs/fabric": "^1.1.10",
+    "address": "^1.1.2",
+    "check-prettier": "^1.0.3",
+    "concurrently": "^4.1.2",
+    "coveralls": "3",
+    "husky": "1",
+    "lint-staged": "8",
+    "mockjs": "^1.0.1-beta3",
+    "np": "5",
+    "prettier": "1",
+    "umi": "^2.12.0",
+    "umi-plugin-react": "^1.9.13",
+    "umi-request": "^1.1.0",
+    "umi-test": "^1.8.2",
+    "umi-types": "^0.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:karzanOnline/one-piece.git"
+  },
+  "author": {
+    "name": "自羽"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@ice/stark": "^1.5.3",
+    "@ice/stark-app": "^1.2.0",
+    "ice": "^3.7.3",
+    "lodash": "^4.17.15",
+    "urijs": "^1.19.2"
+  }
+}
